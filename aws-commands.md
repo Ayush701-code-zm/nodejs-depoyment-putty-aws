@@ -259,6 +259,7 @@ sudo nginx -t
 ```bash
 sudo systemctl start nginx
 sudo systemctl enable nginx
+sudo systemctl restart nginx
 ```
 
 ### **Step 12: Start Backend with PM2**
