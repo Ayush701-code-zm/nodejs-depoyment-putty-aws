@@ -4,6 +4,9 @@
 
 ### **Step 1: System Update**
 ```bash
+cd ~/Downloads
+chmod 400 gmail-automation.pem
+ssh -i "gmail-automation.pem" ubuntu@ec2-13-203-203-65.ap-south-1.compute.amazonaws.com
 sudo apt update && sudo apt upgrade -y
 ```
 
