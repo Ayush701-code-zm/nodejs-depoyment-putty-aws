@@ -11,7 +11,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 
 ### **Step 2: Install Node.js 18**
-```bash
+```bas
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
